@@ -1,0 +1,15 @@
+#index_content {
+  width: 55%;
+}
+#index_plugin {
+  width: 45%;
+  max-width: 320px;
+}
+.index_block {
+  float: left;
+  padding: 0 1%;
+}
+.image_block {
+  display: inline-block;
+  width: 100%;
+}
