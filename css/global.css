@@ -1,28 +1,35 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Jost';
 }
-.clear_fix {
+
+body {
+  background-color: whitesmoke;
+}
+
+.clear-fix {
   clear: both;
 }
-.content_block {
+
+.content-block {
   padding: 2% 0;
 }
-.content_text {
-  /*Add font family here*/
-}
-.content_title {
+
+.content-title {
   font-size: 20px;
-  font-weight: bold;
-  padding-left: 2%;
 }
-.content_description {
-  font-size: 16px;
-  text-indent: 2em;
+
+.content-text {
+  /*Add font family here*/
+  font-family: 'Jost';
+  text-align: left;
 }
-body {
-  padding: 0 1%;
+
+.text-center {
+  text-align: center;
 }
-.text_bold {
+
+.text-bold {
   font-weight: bold;
 }

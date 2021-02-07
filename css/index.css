@@ -1,15 +1,143 @@
-#index_content {
-  width: 55%;
+.main-container {
+  max-width: 1280px;
+  min-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
 }
-#index_plugin {
-  width: 45%;
+
+.main-container-title {
+  font-size: 48px;
+  text-align: center;
+  width: 100%;
+  padding: 36px 0 36px 0;
+  color: #2F5D8C;
+}
+
+#footer {
+  border-radius: 0 0 10px 10px;
+  height: 220px;
+  background-color: #363839;
+}
+
+.main-seperator {
+  height: 40px;
+  background-color: #2F5D8C;
+}
+
+.container-odd {
+  background-color: #cfdee9;
+}
+
+.container-even {
+  background-color: #9cbbd2;
+}
+
+.content-block {
+  padding: 0 10% 6% 10%;
+}
+
+#index {
+  background-image: url("../images/home01.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center right;
+  height: 960px;
+  border-radius: 10px 10px 0 0;
+}
+
+#index-content {
+  width: 73%;
+  padding-top: 60px;
+  padding-left: 60px;
+}
+
+#index-plugin {
+  width: 27%;
   max-width: 320px;
 }
-.index_block {
+
+.index-block {
   float: left;
   padding: 0 1%;
 }
-.image_block {
-  display: inline-block;
+
+.index-text {
+  text-align: left;
+  padding: 20px;
+}
+
+.index-text-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(203, 13, 13);
+}
+
+.index-text-title-right {
+  text-align: right;
+}
+
+.index-text-description {
+  max-width: 440px;
+  font-size: 22px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  color: rgb(27, 26, 154);
+  opacity: 0.7;
+}
+
+.index-plugin-component {
+  border-radius: 5px;
+}
+
+.domestic-block {
+  float: left;
+  width: 50%;
+}
+
+.domestic-text-block {
+  width: 40%;
+  padding-left: 20px;
+}
+
+.domestic-text-description {
+  text-align: left;
+}
+
+.domestic-image-block {
+  width: 60%;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.domestic-image {
+  width: inherit;
+  border-radius: 5px;
+}
+
+.domestic-image-set-container {}
+
+.domestic-image-set {
+  width: 29%;
+  margin: 2%;
+  border-radius: 5px;
+}
+
+.international-block {
+  float: right;
+}
+
+.international-image-block {
+  width: 60%;
+}
+
+.international-text-block {
+  width: 40%;
+  text-align: left;
+  padding-left: 4%;
+}
+
+.international-image-set {
   width: 100%;
+  border-radius: 5px;
 }
