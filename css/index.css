@@ -37,6 +37,11 @@
   padding: 0 10% 6% 10%;
 }
 
+.image-set {
+  margin: 2% 0;
+  border-radius: 5px;
+}
+
 #index {
   background-image: url("../images/home01.jpg");
   background-repeat: no-repeat;
@@ -46,9 +51,24 @@
   border-radius: 10px 10px 0 0;
 }
 
+.index-contact {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #000472;
+  font-size: 22px;
+}
+
+.index-contact-email {
+  font-size: 26px;
+}
+
+.index-contact-logo {
+  width: 40px;
+}
+
 #index-content {
   width: 73%;
-  padding-top: 60px;
   padding-left: 60px;
 }
 
@@ -124,8 +144,6 @@
 
 .domestic-image-set {
   width: 29%;
-  margin: 2% 0;
-  border-radius: 5px;
   height: 270px;
 }
 
@@ -152,18 +170,34 @@
 
 .packing-image-set {
   width: 29%;
-  margin: 2% 0;
-  border-radius: 5px;
 }
 
 .packing-image-set-1 {
   width: 35%;
-  margin: 2% 0;
-  border-radius: 5px;
 }
 
 .packing-image-set-2 {
   width: 19.7%;
-  margin: 2% 0;
-  border-radius: 5px;
+}
+
+.aboutus-image-big {
+  width: 50%;
+}
+
+.aboutus-image-set {
+  width: 20%;
+}
+
+.aboutus-block {
+  float: left;
+  padding-left: 30px;
+}
+
+.aboutus-text-bold {
+  text-decoration: underline;
+  color: #000472;
+}
+
+.aboutus-warehouse-text {
+  color: #000472;
 }
