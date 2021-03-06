@@ -15,6 +15,7 @@
 }
 
 #footer {
+  padding: 30px 10px;
   border-radius: 0 0 10px 10px;
   height: 220px;
   background-color: #363839;
@@ -200,4 +201,63 @@
 
 .aboutus-warehouse-text {
   color: #000472;
+}
+
+.footer-block {
+  width: 48%;
+  color: gainsboro;
+}
+
+.footer-block-left {
+  float: left;
+  text-align: left;
+  /* margin-top: 20px; */
+}
+
+.footer-block-right {
+  float: right;
+  text-align: right;
+}
+
+.sitemap-title {
+  font-size: 18px;
+  border-bottom: 1px solid gainsboro;
+}
+
+#footer-sitemap-list {
+  margin-top: 10px;
+}
+
+#footer-sitemap-list li {
+  list-style: none;
+}
+
+#footer-sitemap-list li a {
+  text-decoration: none;
+  color: gainsboro;
+}
+
+#footer-sitemap-list li a:hover {
+  color: rgb(27, 26, 154);
+}
+
+.footer-contact-title {
+  line-height: 48px;
+}
+
+.footer-logo {
+  height: 48px;
+  margin-left: -3px;
+}
+
+.footer-contact-email {
+  font-size: 16px;
+}
+
+.footer-contact-logo {
+  width: 24px;
+}
+
+.footer-inline-block {
+  float: left;
 }
