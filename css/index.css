@@ -21,7 +21,7 @@
 }
 
 .main-seperator {
-  height: 40px;
+  height: 80px;
   background-color: #2F5D8C;
 }
 
@@ -60,6 +60,10 @@
 
 .index-contact {
   color: #000472;
+}
+
+.index-text-start-span {
+  font-weight: bold;
 }
 
 .index-text-center {
@@ -256,7 +260,9 @@
     line-height: 22px;
   }
 
-  #index-content {}
+  #index-content {
+    margin-bottom: 120px;
+  }
 
   #index-plugin {
     margin-top: 20px;
@@ -273,14 +279,13 @@
   }
 
   .index-text-description {
-    font-size: 20px;
+    font-size: 18px;
     margin: 0 3%;
   }
 
   .index-plugin-component {
-    width: 450px;
-    height: 500px;
-    margin-top: -6%;
+    width: 100%;
+    height: 480px;
   }
 
   .index-block {
@@ -288,8 +293,12 @@
   }
 
   .index-inner-block {
-    width: 48%;
+    width: 50%;
     float: left;
+  }
+
+  .index-text-start-span {
+    font-size: 20px;
   }
 }
 
@@ -345,5 +354,9 @@
   .index-plugin-component {
     width: 295px;
     height: 240px;
+  }
+
+  .index-text-start-span {
+    font-size: 24px;
   }
 }
