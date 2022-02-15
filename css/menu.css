@@ -1,37 +1,65 @@
-#header-menu {
-  background:none;
-  height: 120px;
-  padding: 20px;
-}
-.main-logo {
-  height: 80px;
-}
 #header-logo {
-  float: left;
   text-align: center;
-  margin-left: 30px;
 }
 
-#header-company {
-  height: 80px;
-  float: left;
-  margin-left: 10px;
-  color: rgb(27, 26, 154);
-}
-#navigation-list {
-  float: right;
-  padding-right: 100px;
-}
-.menu-button {
-  float: right;
-  list-style: none;
-  margin: 30px;
-  font-weight: bold;
-}
 .menu-button a {
   text-decoration: none;
   color: #2F5D8C;
 }
+
 .menu-button a:hover {
   color: rgb(27, 26, 154);
+}
+
+.menu-button {
+  display: inline-block;
+  list-style: none;
+  margin: 0 4%;
+  font-weight: bold;
+}
+
+#header-company {
+  color: rgb(27, 26, 154);
+}
+
+@media only screen and (max-width: 1279px) {
+  #header-menu {
+    padding: 2%;
+  }
+
+  #header-menu {
+    background: none;
+  }
+
+  .main-logo {
+    height: 60px;
+  }
+
+  #header-navigation {
+    margin-top: 1%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  #header-menu {
+    padding: 2% 4% 0;
+  }
+
+  #header-logo {
+    float: left;
+  }
+
+  .main-logo {
+    height: 80px;
+  }
+
+  #navigation-list {
+    margin-top: 2%;
+    padding-left: 35%;
+  }
+
+  #header-company {
+    height: 80px;
+    margin-left: 10px;
+  }
 }
