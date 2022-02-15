@@ -21,7 +21,7 @@
 }
 
 .main-seperator {
-  height: 80px;
+  height: 100px;
   background-color: #2F5D8C;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .content-block {
-  padding: 0 10% 6% 10%;
+  padding: 0 8% 6% 8%;
 }
 
 .image-set {
@@ -56,6 +56,7 @@
 .index-text-title {
   font-weight: bold;
   color: rgb(203, 13, 13);
+  display: block;
 }
 
 .index-contact {
@@ -127,7 +128,7 @@
 .international-text-block {
   width: 40%;
   text-align: left;
-  padding-left: 4%;
+  padding-left: 5%;
 }
 
 .international-image-set {
@@ -155,11 +156,6 @@
 
 .aboutus-image-set {
   width: 20%;
-}
-
-.aboutus-block {
-  float: left;
-  padding-left: 30px;
 }
 
 .aboutus-text-bold {
@@ -300,6 +296,12 @@
   .index-text-start-span {
     font-size: 20px;
   }
+
+  .aboutus-map-component {
+    margin-top: 15px;
+    height: 320px;
+    width: 420px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -358,5 +360,15 @@
 
   .index-text-start-span {
     font-size: 24px;
+  }
+
+  .aboutus-block {
+    float: left;
+    padding-left: 30px;
+  }
+
+  .aboutus-map-component {
+    height: 320px;
+    width: 480px;
   }
 }
