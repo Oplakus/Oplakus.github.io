@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+#header-logo a {
+  text-decoration: none;
+}
+
 .menu-button a {
   text-decoration: none;
   color: #2F5D8C;
@@ -36,7 +40,7 @@
   }
 
   #header-navigation {
-    margin-top: 1%;
+    margin-top: 2%;
   }
 }
 

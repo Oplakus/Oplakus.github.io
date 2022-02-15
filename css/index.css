@@ -42,55 +42,24 @@
   border-radius: 5px;
 }
 
+.index-inner-block {
+  padding: 0 2%;
+}
+
 #index {
   background-image: url("../images/home01.jpg");
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: center right;
-  height: 960px;
   border-radius: 10px 10px 0 0;
 }
 
-.index-contact {
-  text-align: left;
-  padding-left: 20px;
-  padding-top: 20px;
-  color: #000472;
-  font-size: 22px;
-}
-
-.index-contact-email {
-  font-size: 26px;
-}
-
-.index-contact-logo {
-  width: 40px;
-}
-
-#index-content {
-  width: 73%;
-  padding-left: 60px;
-}
-
-#index-plugin {
-  width: 27%;
-  max-width: 320px;
-}
-
-.index-block {
-  float: left;
-  padding: 0 1%;
-}
-
-.index-text {
-  text-align: left;
-  padding: 20px;
-}
-
 .index-text-title {
-  font-size: 36px;
   font-weight: bold;
   color: rgb(203, 13, 13);
+}
+
+.index-contact {
+  color: #000472;
 }
 
 .index-text-center {
@@ -102,12 +71,9 @@
 }
 
 .index-text-description {
-  max-width: 440px;
-  font-size: 22px;
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 255, 0.6);
   border-radius: 10px;
   color: rgb(27, 26, 154);
-  opacity: 0.7;
 }
 
 .index-plugin-component {
@@ -258,4 +224,126 @@
 
 .footer-inline-block {
   float: left;
+}
+
+
+@media only screen and (max-width: 1279px) {
+  #index {
+    background-position: center top;
+    background-position-x: 65%;
+    height: 1108px;
+  }
+
+  .index-text-title {
+    font-size: 24px;
+  }
+
+  .index-contact {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+  }
+
+  .index-contact-email {
+    font-size: 20px;
+  }
+
+  .index-contact-logo {
+    width: 32px;
+  }
+
+  .index-contact-span {
+    line-height: 22px;
+  }
+
+  #index-content {}
+
+  #index-plugin {
+    margin-top: 20px;
+  }
+
+  .index-text {
+    text-align: left;
+    padding: 20px;
+  }
+
+  .index-text-title {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .index-text-description {
+    font-size: 20px;
+    margin: 0 3%;
+  }
+
+  .index-plugin-component {
+    width: 450px;
+    height: 500px;
+    margin-top: -6%;
+  }
+
+  .index-block {
+    padding: 0 1%;
+  }
+
+  .index-inner-block {
+    width: 48%;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  #index {
+    background-position: center right;
+    height: 980px;
+  }
+
+  .index-text-title {
+    font-size: 36px;
+  }
+
+  .index-contact {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 22px;
+  }
+
+  .index-contact-email {
+    font-size: 26px;
+  }
+
+  .index-contact-logo {
+    width: 40px;
+  }
+
+  #index-content {
+    width: 73%;
+    padding-left: 60px;
+  }
+
+  #index-plugin {
+    width: 27%;
+    max-width: 320px;
+  }
+
+  .index-block {
+    float: left;
+  }
+
+  .index-text {
+    text-align: left;
+    padding: 20px;
+  }
+
+  .index-text-description {
+    max-width: 440px;
+    font-size: 22px;
+  }
+
+  .index-plugin-component {
+    width: 295px;
+    height: 240px;
+  }
 }
